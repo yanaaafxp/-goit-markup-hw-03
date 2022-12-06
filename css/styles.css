@@ -181,7 +181,6 @@ body {
     background-color: var(--navyblue-color);
     text-align: center;
     padding: 192px 0;
-    height: 603px;
 }
 
 .hero-title {
@@ -214,10 +213,8 @@ body {
 /* feature section */
 
 .feature {
-    padding-top: 120px;
+    margin: 120px 0;
 }
-
-
 
 .feature-list {
     display: flex;
@@ -235,6 +232,7 @@ body {
     color: var(--navyblue-color);
     font-weight: 500;
     font-size: 20px;
+    margin-bottom: 8px;
 }
 
 .feature-list-text {
@@ -245,7 +243,7 @@ body {
 /* tasks section */
 
 .tasks {
-    padding: 120px 0;
+    margin: 120px 0;
 }
 
 .tasks-title {
@@ -277,11 +275,8 @@ body {
 
 .team {
     background-color: var(--cloud-color);
-    
-}
-
-.team-container {
-    padding-bottom: 120px;
+    margin-top: 120px;
+    padding: 120px 0;
 }
 
 .team-title {
@@ -292,7 +287,6 @@ body {
     text-align: center;
     width: 162px;
     margin: 0 auto;
-    padding-top: 120px;
     margin-bottom: 72px;
 }
 
@@ -336,7 +330,7 @@ body {
 
 .footer {
     background-color: var(--navyblue-color);
-    padding: 100px 0 ;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -365,7 +359,8 @@ body {
 /* portfolio page */
 
 .section-list {
-
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 /* button list */
@@ -375,7 +370,6 @@ body {
 }
 
 .buttons-list {
-    padding-top: 96px;
     display: flex;
     align-items: center;
     gap: 24px;
@@ -428,7 +422,6 @@ body {
 
 .photos-list {
     margin-top: 72px;
-    margin-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
     gap: 22px;
